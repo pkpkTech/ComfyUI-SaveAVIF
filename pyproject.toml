@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-saveavif"
+description = "A custom node on ComfyUI that saves images in AVIF format. Workflow can be loaded from images saved at this node."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["pillow-avif-plugin"]
+
+[project.urls]
+Repository = "https://github.com/pkpkTech/ComfyUI-SaveAVIF"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SaveAVIF"
+Icon = ""
